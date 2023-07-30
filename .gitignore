@@ -16,3 +16,5 @@
 
 # Me
 design
+# Local Netlify folder
+.netlify

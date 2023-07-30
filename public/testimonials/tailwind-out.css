@@ -628,12 +628,12 @@ a:hover {
   background-color: hsl(300 24% 96% / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/assets\/images\/bg-pattern-top-mobile\.svg\'\)\2c _url\(\'\.\/assets\/images\/bg-pattern-bottom-mobile\.svg\'\)\] {
-  background-image: url('./assets/images/bg-pattern-top-mobile.svg'), url('./assets/images/bg-pattern-bottom-mobile.svg');
+.bg-\[url\(\'\/testimonials\/assets\/images\/bg-pattern-top-mobile\.svg\'\)\2c _url\(\'\/testimonials\/assets\/images\/bg-pattern-bottom-mobile\.svg\'\)\] {
+  background-image: url('/testimonials/assets/images/bg-pattern-top-mobile.svg'), url('/testimonials/assets/images/bg-pattern-bottom-mobile.svg');
 }
 
-.bg-\[url\(\'\.\/assets\/images\/icon-star\.svg\'\)\] {
-  background-image: url('./assets/images/icon-star.svg');
+.bg-\[url\(\'\/testimonials\/assets\/images\/icon-star\.svg\'\)\] {
+  background-image: url('/testimonials/assets/images/icon-star.svg');
 }
 
 .bg-\[length\:1rem_1rem\] {
@@ -760,106 +760,15 @@ a:hover {
   font-weight: 700;
 }
 
-.before\:-mt-8::before {
-  content: var(--tw-content);
-  margin-top: -2rem;
-}
-
-.before\:-mt-56::before {
-  content: var(--tw-content);
-  margin-top: -14rem;
-}
-
-.before\:mt-56::before {
-  content: var(--tw-content);
-  margin-top: 14rem;
-}
-
 .before\:inline-block::before {
   content: var(--tw-content);
   display: inline-block;
-}
-
-.before\:translate-y-11::before {
-  content: var(--tw-content);
-  --tw-translate-y: 2.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:translate-x-11::before {
-  content: var(--tw-content);
-  --tw-translate-x: 2.75rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:translate-y-4::before {
-  content: var(--tw-content);
-  --tw-translate-y: 1rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:translate-y-6::before {
-  content: var(--tw-content);
-  --tw-translate-y: 1.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:translate-y-5::before {
-  content: var(--tw-content);
-  --tw-translate-y: 1.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .before\:translate-y-\[1\.1rem\]::before {
   content: var(--tw-content);
   --tw-translate-y: 1.1rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:translate-y-\[1\.11rem\]::before {
-  content: var(--tw-content);
-  --tw-translate-y: 1.11rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.before\:text-center::before {
-  content: var(--tw-content);
-  text-align: center;
-}
-
-.before\:align-baseline::before {
-  content: var(--tw-content);
-  vertical-align: baseline;
-}
-
-.before\:text-2xl::before {
-  content: var(--tw-content);
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.before\:text-5xl::before {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.before\:text-5xl\/3::before {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: .75rem;
-}
-
-.before\:text-5xl\/5::before {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1.25rem;
-}
-
-.before\:text-5xl\/none::before {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .before\:text-5xl\/\[0\]::before {
@@ -878,46 +787,10 @@ a:hover {
   display: inline-block;
 }
 
-.after\:-translate-y-\[1\.1rem\]::after {
-  content: var(--tw-content);
-  --tw-translate-y: -1.1rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
 .after\:translate-y-\[1\.1rem\]::after {
   content: var(--tw-content);
   --tw-translate-y: 1.1rem;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.after\:text-5xl\/5::after {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1.25rem;
-}
-
-.after\:text-5xl\/4::after {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1rem;
-}
-
-.after\:text-5xl\/3::after {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: .75rem;
-}
-
-.after\:text-5xl\/\[1rem\]::after {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 1rem;
-}
-
-.after\:text-5xl\/\[10rem\]::after {
-  content: var(--tw-content);
-  font-size: 3rem;
-  line-height: 10rem;
 }
 
 .after\:text-5xl\/\[0\]::after {
@@ -1037,8 +910,8 @@ a:hover {
 }
 
 @media (min-width:376px) {
-  .\[\@media\(min-width\:376px\)\]\:bg-\[url\(\'\.\/assets\/images\/bg-pattern-top-desktop\.svg\'\)\2c _url\(\'\.\/assets\/images\/bg-pattern-bottom-desktop\.svg\'\)\] {
-    background-image: url('./assets/images/bg-pattern-top-desktop.svg'), url('./assets/images/bg-pattern-bottom-desktop.svg');
+  .\[\@media\(min-width\:376px\)\]\:bg-\[url\(\'\/testimonials\/assets\/images\/bg-pattern-top-desktop\.svg\'\)\2c _url\(\'\/testimonials\/assets\/images\/bg-pattern-bottom-desktop\.svg\'\)\] {
+    background-image: url('/testimonials/assets/images/bg-pattern-top-desktop.svg'), url('/testimonials/assets/images/bg-pattern-bottom-desktop.svg');
   }
 
   .\[\@media\(min-width\:376px\)\]\:bg-\[position\:_top_right_50vw\2c _bottom_left_50vw\] {
